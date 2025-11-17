@@ -59,9 +59,9 @@ function Footer({footerChange, logoImage}){
 							<div className="col-xl-3 col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
 								<div className="widget widget_about">
 									<div className="footer-logo logo-white">
-										<Link to={"/"}><img src={logoImage} alt="" /></Link> 
+										{/* <Link to={"/"}><img src={logoImage} alt="" /></Link>  */}
 									</div>
-									<p className="text">Bookland is a Book Store Ecommerce Website Template by DexignZone lorem ipsum dolor sit</p>
+									<p className="text">muidivakaris is a Ecommerce Website website designede by atwebify.com</p>
 									<div className="dz-social-icon style-1">
 										<ul>
 											<li><a href="https://www.facebook.com/dexignzone" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i></a></li>
@@ -86,9 +86,9 @@ function Footer({footerChange, logoImage}){
 							</div>
 							<div className="col-xl-2 col-lg-3 col-sm-4 col-4 wow fadeInUp" data-wow-delay="0.3s">
 								<div className="widget widget_services">
-									<h5 className="footer-title">Bookland ?</h5>
+									<h5 className="footer-title">muidivakar ?</h5>
 									<ul>
-										<li><Link to={"/"}>Bookland</Link></li>
+										<li><Link to={"/"}>muidivakar</Link></li>
 										<li><Link to={"/services"}>Services</Link></li>
 										<li><Link to={"/books-detail"}>Book Details</Link></li>
 										<li><Link to={"/blog-detail"}>Blog Details</Link></li>

@@ -55,7 +55,8 @@ function Header(){
 				<div className="container clearfix">
 					{/* <!-- Website Logo --> */}
 					<div className="logo-header logo-dark">
-						<Link to={"/"}><img src={logo} alt="logo" /></Link>
+						<h1>muidivakar</h1>
+						{/* <Link to={"/"}><img src={logo} alt="logo" /></Link> */}
 					</div>
 					
 					{/* <!-- EXTRA NAV --> */}
@@ -65,7 +66,7 @@ function Header(){
 								<li className="nav-item">
 									<Link to={"/wishlist"} className="nav-link">
 										<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
-										<span className="badge">21</span>
+										<span className="badge">90</span>
 									</Link>
 								</li>
 								<Dropdown as="li" className="nav-item">
@@ -192,7 +193,7 @@ function Header(){
 										<Dropdown.Item onClick={()=>setSelectBtn('Education')}>Education</Dropdown.Item>
 									</Dropdown.Menu>
 								</Dropdown>
-								<input type="text" className="form-control" aria-label="Text input with dropdown button" placeholder="Search Books Here" />
+								<input type="text" className="form-control" aria-label="Text input with dropdown button" placeholder="Search Clients with Name Or Application number" />
 								<button className="btn" type="button"><i className="flaticon-loupe"></i></button>
 							</div>
 						</form>
@@ -217,7 +218,7 @@ function Header(){
 						{/* <!-- EXTRA NAV --> */}
 						<div className="extra-nav">
 							<div className="extra-cell">
-								<Link to={"/contact-us"} className="btn btn-primary btnhover">Get In Touch</Link>	
+								<Link to={"/shop-login"} className="btn btn-primary btnhover">Log in</Link>	
 							</div>
 						</div>
 						
