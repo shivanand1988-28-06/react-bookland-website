@@ -5,6 +5,7 @@
   "private": true,
   "homepage": "https://noidivakar.com" ,
 
+
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
