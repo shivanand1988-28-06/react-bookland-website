@@ -55,7 +55,7 @@ function Header(){
 				<div className="container clearfix">
 					{/* <!-- Website Logo --> */}
 					<div className="logo-header logo-dark">
-						<h1>muidivakar</h1>
+						<h1>noidivakar</h1>
 						{/* <Link to={"/"}><img src={logo} alt="logo" /></Link> */}
 					</div>
 					
