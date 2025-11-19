@@ -192,6 +192,7 @@ function Header(){
 			</div>
 			<div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""}`}>
 				<div className="main-bar clearfix">
+					<button>Login Or register</button>
 					<div className="container clearfix">
 						{/* <!-- Website Logo --> */}
 						
