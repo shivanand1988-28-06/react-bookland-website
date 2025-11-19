@@ -191,14 +191,16 @@ function Header(){
 				</div>
 			</div>
 			<div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""}`}>
+				
 				<div className="main-bar clearfix">
-					<button>Login Or register</button>
+					
 					<div className="container clearfix">
 						{/* <!-- Website Logo --> */}
 						
 
 						<div className="logo-header logo-dark">
-							<h4>noidivakar</h4>
+							<h6>noidivakar</h6>
+							<Link to = {"/Shop-Login"} className="btn btn-primary btnhover">Login </Link><Link to = {"/Shop-Registration"} className="btn btn-primary btnhover">Register</Link>
 							<Link to={"#"}><img src={logo} alt="logo" /></Link>
 						</div>
 						
