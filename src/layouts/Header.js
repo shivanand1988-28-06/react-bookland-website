@@ -178,19 +178,9 @@ function Header(){
 									</Dropdown.Toggle>
 									<Dropdown.Menu>
 										<Dropdown.Item onClick={()=>setSelectBtn('Category')}>Category</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Photography')}>Photography</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Arts')}>Arts</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Adventure')}>Adventure</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Action')}>Action</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Games')}>Games</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Movies')}>Movies</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Comics')}>Comics</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Biographies')}>Biographies</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Children’s Books')}>Children’s Books</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Historical')}>Historical</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Contemporary')}>Contemporary</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Classics')}>Classics</Dropdown.Item>
-										<Dropdown.Item onClick={()=>setSelectBtn('Education')}>Education</Dropdown.Item>
+										<Dropdown.Item onClick={()=>setSelectBtn('Client')}>Client</Dropdown.Item>
+										<Dropdown.Item onClick={()=>setSelectBtn('Banker')}>Banker</Dropdown.Item>
+										
 									</Dropdown.Menu>
 								</Dropdown>
 								<input type="text" className="form-control" aria-label="Text input with dropdown button" placeholder="Search Clients with Name Or Application number" />
@@ -204,7 +194,10 @@ function Header(){
 				<div className="main-bar clearfix">
 					<div className="container clearfix">
 						{/* <!-- Website Logo --> */}
+						
+
 						<div className="logo-header logo-dark">
+							<h4>noidivakar</h4>
 							<Link to={"#"}><img src={logo} alt="logo" /></Link>
 						</div>
 						

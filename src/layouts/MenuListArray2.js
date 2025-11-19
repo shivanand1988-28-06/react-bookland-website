@@ -32,6 +32,10 @@ export const MenuListArray2 = [
                 to: '/services',
             },
             {
+                title: 'Register or Login',
+                to: '/login',
+            },
+            {
                 title: "FAQ's",
                 to: '/faq',
             },

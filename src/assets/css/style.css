@@ -18984,7 +18984,7 @@ ul a.rsswidget {
             right: 20px; } }
       @media only screen and (max-width: 991px) {
         .header-item-search .main-menu .menu-item {
-          display: none; } }
+          display: block; } }
 
 .search-input {
   margin-bottom: 0;
