@@ -54,7 +54,7 @@ function Registration(){
                                         {userType === 'client' && (
                                             <div className="mb-4">
                                                 <label className="label-title">Mobile Number *</label>
-                                                <input name="dzMobile" required="" className="form-control" placeholder="Your Mobile Number" type="tel" />
+                                                <input name="dzMobile" required="" className="form-control" placeholder="Clients Mobile Number" type="tel" />
                                             </div>
                                         )}
 
