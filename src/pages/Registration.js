@@ -26,25 +26,25 @@ function Registration(){
                                         <p className="font-weight-600">If you don't have an account with us, please Registration.</p>
 
                                         <div className="mb-4">
+                                            <label className="label-title">User Type *</label>
+                                            <select name="dzUserType" required="" className="form-control" value={userType} onChange={handleUserTypeChange}>
+                                                <option value="">Select User Type</option>
+                                                <option value="client">Client</option>
+                                                <option value="banker">Banker</option>
+                                            </select>
+                                        </div>
+
+                                        <div className="mb-4">
                                             <label className="label-title">Username *</label>
                                             <input name="dzUsername" required="" className="form-control" placeholder="Your Username" type="text" />
                                         </div>
                                         <div className="mb-4">
-                                            <label className="label-title">Email address {userType !== 'client' ? '*' : ''}</label>
-                                            <input name="dzEmail" required={userType !== 'client'} className="form-control" placeholder="Your Email address" type="email" />
+                                            <label className="label-title">Email address {userType === 'banker' ? '*' : ''}</label>
+                                            <input name="dzEmail" required={userType === 'banker'} className="form-control" placeholder="Your Email address" type="email" />
                                         </div>
                                         <div className="mb-4">
                                             <label className="label-title">Password *</label>
                                             <input name="dzPassword" required="" className="form-control " placeholder="Type Password" type="password" />
-                                        </div>
-
-                                        <div className="mb-4">
-                                            <label className="label-title">User Type *</label>
-                                            <select name="dzUserType" required="" className="form-control" value={userType} onChange={handleUserTypeChange}>
-                                                <option value="">Select User Type</option>
-                                                <option value="banker">Banker</option>
-                                                <option value="client">Client</option>
-                                            </select>
                                         </div>
 
                                         {(userType === 'client' || userType === 'banker') && (
