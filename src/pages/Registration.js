@@ -26,16 +26,12 @@ function Registration(){
                                         <p className="font-weight-600">If you don't have an account with us, please Registration.</p>
 
                                         <div className="mb-4">
-                                            <label className="label-title">Full Name *</label>
-                                            <input name="dzFullName" required="" className="form-control" placeholder="Your Full Name" type="text" />
-                                        </div>
-                                        <div className="mb-4">
                                             <label className="label-title">Username *</label>
                                             <input name="dzUsername" required="" className="form-control" placeholder="Your Username" type="text" />
                                         </div>
                                         <div className="mb-4">
-                                            <label className="label-title">Email address *</label>
-                                            <input name="dzEmail" required="" className="form-control" placeholder="Your Email address" type="email" />
+                                            <label className="label-title">Email address {userType !== 'client' ? '*' : ''}</label>
+                                            <input name="dzEmail" required={userType !== 'client'} className="form-control" placeholder="Your Email address" type="email" />
                                         </div>
                                         <div className="mb-4">
                                             <label className="label-title">Password *</label>
@@ -51,10 +47,10 @@ function Registration(){
                                             </select>
                                         </div>
 
-                                        {userType === 'client' && (
+                                        {(userType === 'client' || userType === 'banker') && (
                                             <div className="mb-4">
-                                                <label className="label-title">Mobile Number *</label>
-                                                <input name="dzMobile" required="" className="form-control" placeholder="Clients Mobile Number" type="tel" />
+                                                <label className="label-title">Client's Mobile Number *</label>
+                                                <input name="dzMobile" required="" className="form-control" placeholder="Client's Mobile Number" type="tel" />
                                             </div>
                                         )}
 
