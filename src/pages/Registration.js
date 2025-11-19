@@ -62,7 +62,7 @@ function Registration(){
                                             <div className="form-check">
                                                 <input className="form-check-input" type="checkbox" name="dzNewsletter" id="newsletter" />
                                                 <label className="form-check-label" htmlFor="newsletter">
-                                                    Subscribe to our newsletter for book recommendations and updates
+                                                    Subscribe to our newsletter for updates.
                                                 </label>
                                             </div>
                                         </div>
