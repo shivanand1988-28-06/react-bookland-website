@@ -55,10 +55,10 @@ function AboutUs(){
                                             </div>
                                             <div className="exp-info">
                                                 <ul className="list-check primary">
-                                                    <li>Comics & Graphics</li>
-                                                    <li>Biography</li>
-                                                    <li>Literary Collections</li>
-                                                    <li>Children Fiction</li>
+                                                    <li>noi</li>
+                                                    <li>noi</li>
+                                                    <li>noi</li>
+                                                    <li>noi</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -68,8 +68,8 @@ function AboutUs(){
                             <div className="col-lg-6 m-b30 aos-item">
                                 <div className="about-content px-lg-4">
                                     <div className="section-head style-1">
-                                        <h2 className="title">Bookland Is Best Choice For Learners</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration which don’t look even slightly believable. It Is A Long Established Fact That A Reader Will Be Distracted</p>
+                                        <h2 className="title">noidivakar Is Best Choice For Bankers</h2>
+                                        <p>There are many variations</p>
                                     </div>
                                     <Link to={"/contact-us"} className="btn btn-primary btnhover shadow-primary">Contact Us</Link>
                                 </div>

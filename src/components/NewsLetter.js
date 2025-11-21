@@ -24,7 +24,7 @@ function NewsLetter({subscribeChange}){
                         <div className="row style-1 justify-content-xl-between justify-content-lg-center align-items-center text-xl-start text-center">
                             <div className="col-xl-7 col-lg-12 ">
                                 <div className="section-head mb-0">
-                                    <h2 className="title text-white my-lg-3 mt-0">Subscribe our newsletter for newest books updates</h2>
+                                    <h2 className="title text-white my-lg-3 mt-0">Subscribe for newest update</h2>
                                 </div>
                             </div>
                             <div className="col-xl-5 col-lg-6 " >
