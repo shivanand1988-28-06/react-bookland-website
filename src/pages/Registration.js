@@ -6,9 +6,19 @@ import PageTitle from './../layouts/PageTitle';
 
 function Registration(){
     const [userType, setUserType] = useState('');
+    const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState('');
 
     const handleUserTypeChange = (e) => {
         setUserType(e.target.value);
+    };
+
+    const handlePasswordChange = (e) => {
+        setPassword(e.target.value);
+    };
+
+    const handleConfirmPasswordChange = (e) => {
+        setConfirmPassword(e.target.value);
     };
 
     return(
@@ -44,7 +54,14 @@ function Registration(){
                                         </div>
                                         <div className="mb-4">
                                             <label className="label-title">Password *</label>
-                                            <input name="dzPassword" required="" className="form-control " placeholder="Type Password" type="password" />
+                                            <input name="dzPassword" required="" className="form-control" placeholder="Type Password" type="password" value={password} onChange={handlePasswordChange} />
+                                        </div>
+                                        <div className="mb-4">
+                                            <label className="label-title">Confirm Password *</label>
+                                            <input name="dzConfirmPassword" required="" className="form-control" placeholder="Confirm Password" type="password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
+                                            {confirmPassword && password !== confirmPassword && (
+                                                <small className="text-danger">Passwords do not match</small>
+                                            )}
                                         </div>
 
                                         {(userType === 'client' || userType === 'banker') && (
